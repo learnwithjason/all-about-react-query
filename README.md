@@ -1,29 +1,34 @@
-## What is this?
+<p align="center">
+  <a href="https://www.learnwithjason.dev">
+    <img src="https://res.cloudinary.com/jlengstorf/image/upload/q_auto,f_auto,w_240/v1579281727/lwj/learnwithjason.png" alt="Learn With Jason" width="120" />
+  </a>
+</p>
+<h1 align="center">
+  All About React Query (with Tanner Linsley)
+</h1>
+<h3 align="center">
+  This app was built live on <em>Learn With Jason</em> and it was super fun and I’m sad you weren’t there.
+</h3>
+<p align="center">
+  But don’t worry! You can still: 
+  <a href="https://www.learnwithjason.dev/all-about-react-query"><strong>watch the video</strong></a> · 
+  <a href="https://jason.af/lwj/schedule"><strong>see upcoming episodes</strong></a>
+</p>
 
-It's an example repo I used to teach a workshop about React Query!
+> **NOTE:** This repo was forked from [tannerlinsley/react-summit-2020-react-query](https://github.com/tannerlinsley/react-summit-2020-react-query)
 
-- The `main` branch contains the initial code we started with
-- The `with-react-query` branch contains the code we ended with after adding `react-query`
-- The #2 PR currently open in the repo shows the changes between the two
+&nbsp;
 
-## Challenges
+There‘s a lot of buzz about React Query and how much it can simplify your development workflow. In this episode, we’ll learn all about it from the #TanStack creator himself!
 
-- Convert the custom hooks used to fetch data to use `useQuery`
-- Implement per-screen background fetching indicators
-- Convert the custom hooks used to create/update/delete to use `useMutation`
-- Configure mutations to automatically invalidate related queries
-- Implement optimistic updates for mutations
-- Prefetch individual posts on hover using `queryCache.prefetchQuery` OR
-- Use `initialData` to show placeholder content for individual posts that pull from the parent `posts` query
-- Remove per-screen background fetching indicators and instead build a global refetching indicator
-- Dehydrate/hydrate the cache to and from localStorage using the `react-query/hydration` APIs
+&nbsp;
 
-## How do I develop on this?
+## More Information
 
-- Run `yarn` and then `yarn dev` locally.
-- The Next.js API server is an in-memory local server, so the data is not actually persisted to disk. The posts that are stored or altered will be reset when the server restarts or when a file is saved and the server is recompiled.
-- Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Watch this app get built live + see links and additional resources][episode]
+- [Follow _Learn With Jason_ on Twitch][twitch] to watch future episodes live
+- [Add the _Learn With Jason_ schedule to your Google Calendar][cal]
 
-## Why Next.js?
-
-[Read This 😁](https://gist.github.com/tannerlinsley/65ac1f0175d79d19762cf06650707830)
+[episode]: https://www.learnwithjason.dev/all-about-react-query
+[twitch]: https://jason.af/twitch
+[cal]: https://jason.af/lwj/cal
